@@ -1,0 +1,62 @@
+# befriend
+# conquer
+# antagonize
+# build_ship
+# build_army
+# unit_ratio
+# build_building
+# research_tech
+# garrison
+# protect
+# influence
+
+PRC_early_attack = {           # 早期的进攻
+	allowed = { original_tag = PRC }
+	enable = {
+		original_tag = PRC
+		has_war_with = SHX
+	}
+	abort = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = front_control
+		strategic_region = 245
+		ratio = 0
+		priority = 100
+		execution_type = rush
+		manual_attack = no
+		execute_order = yes
+	}
+	
+	ai_strategy = {
+		type = front_unit_request
+		strategic_region = 245
+		value = 100
+	}
+}
+
+PRC_prepare_war_with_SHX = {
+	allowed = { original_tag = PRC }
+	enable = {
+		original_tag = PRC
+		country_exists = SHX
+	}
+	abort = {
+		
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = prepare_for_war
+		id = SHX
+		value = 100
+		
+	}
+	ai_strategy = {
+		type = front_unit_request
+		strategic_region = 245
+		value = 100
+	}
+}

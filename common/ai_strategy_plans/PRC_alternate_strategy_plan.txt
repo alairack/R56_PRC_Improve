@@ -1,0 +1,35 @@
+PRC_alternate_plan_1 = { #r56
+	name = "PRC Default Plan"
+	desc = "The better plan of PRC by alairack."
+
+	allowed = {
+		original_tag = PRC
+	}
+	
+	enable = {
+		original_tag = PRC
+	}
+
+	ai_national_focuses = {
+		PRC_recover_from_the_long_march 
+		PRC_anti_japanese_aim 
+		PRC_approach_the_front 
+	}
+	ideas = {
+
+	}
+	focus_factors = { 
+        PRC_approach_the_front = 100 
+		PRC_expand_taiyuan_arsenal = 100 
+    } 
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 100.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+}

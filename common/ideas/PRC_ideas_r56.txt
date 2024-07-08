@@ -1,0 +1,79 @@
+ideas = {
+	
+	country = {
+		output_revolution = {
+		
+			picture = idea_generic_purge
+			
+			allowed = {
+				tag = PRC
+			}
+			
+			available = {
+				OR = {
+					country_exists = XSM
+					country_exists = SHX
+					country_exists = SIK
+					country_exists = TNG
+					country_exists = TIB
+				}
+			}
+			
+			cancel = {
+				OR = {
+					has_war_with = CHI
+					has_idea = The_coming_crisis
+					has_war_with_major = yes
+					is_ai = no
+					NOT = {
+					country_exists = XSM
+					country_exists = SHX
+					country_exists = SIK
+					country_exists = TNG
+					country_exists = TIB
+					}
+				}
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				ai_focus_aggressive_factor = 5
+			}
+		}
+		The_coming_crisis_prc = {         # 防御打击共匪
+		
+			picture = idea_generic_purge
+			
+			allowed = {
+				tag = PRC
+			}
+			available = {
+				NOT = {
+					country_exists = SHX
+					date > 1937.01.01
+				}
+			}
+			cancel = {
+				OR = {
+					is_ai = no
+					NOT = {
+					country_exists = CHI
+					}
+				}
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+				ai_focus_defense_factor = 5
+			}
+		}
+		
+	}
+}
