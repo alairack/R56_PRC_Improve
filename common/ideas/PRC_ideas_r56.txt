@@ -22,7 +22,7 @@ ideas = {
 			cancel = {
 				OR = {
 					has_war_with = CHI
-					has_idea = The_coming_crisis
+					has_idea = The_coming_crisis_prc
 					has_war_with_major = yes
 					is_ai = no
 					NOT = {
@@ -44,6 +44,7 @@ ideas = {
 				ai_focus_aggressive_factor = 5
 			}
 		}
+		
 		The_coming_crisis_prc = {         # 防御打击共匪
 		
 			picture = idea_generic_purge
