@@ -3,7 +3,7 @@ ideas = {
 	country = {
 		output_revolution = {
 		
-			picture = idea_generic_purge
+			picture = generic_communism_drift_bonus
 			
 			allowed = {
 				tag = PRC
@@ -22,7 +22,6 @@ ideas = {
 			cancel = {
 				OR = {
 					has_war_with = CHI
-					has_idea = The_coming_crisis_prc
 					has_war_with_major = yes
 					is_ai = no
 					NOT = {
@@ -47,7 +46,7 @@ ideas = {
 		
 		The_coming_crisis_prc = {         # 防御打击共匪
 		
-			picture = idea_generic_purge
+			picture = generic_communism_drift_bonus
 			
 			allowed = {
 				tag = PRC
@@ -55,14 +54,23 @@ ideas = {
 			available = {
 				NOT = {
 					country_exists = SHX
-					date > 1937.01.01
 				}
+				date < 1938.06.06
+				has_war_with = CHI
+			}
+			visible = {
+				NOT = {
+					country_exists = SHX
+				}
+				date < 1938.06.06
+				has_war_with = CHI
 			}
 			cancel = {
 				OR = {
 					is_ai = no
 					NOT = {
 					country_exists = CHI
+					date < 1938.06.06
 					}
 				}
 			}

@@ -23,6 +23,8 @@ PRC_default_plan = { #r56
 		PRC_recover_from_the_long_march = 100 
 		PRC_anti_japanese_aim = 100 
 		PRC_expand_taiyuan_arsenal = 100 
+		PRC_march_into_sik = 100 
+		PRC_liberate_tibet = 100 
     } 
 	# Keep small, as it is used as a factor for some things (such as research needs)
 	# Recommended around 1.0. Useful for relation between plans

@@ -7,8 +7,9 @@ tags={
 }
 dependencies={
 	"The road to 56 CN"
-	"The road to 56 "
+	"The road to 56"
 	"The Road to 56 CN 番号补充"
+	"The road to 56 CN Supply | 56之路汉化补全"
 }
 name="R56 PRC improve"
 picture="thumbnail.png"
