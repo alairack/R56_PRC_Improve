@@ -1,0 +1,38 @@
+[h1]Have you ever wondered why the CCP in 56 Road can't even beat Xibei San Ma? The goal of this mod is to [b] optimize the CCP's AI strategy, take a more reasonable national focus, better manage the troops, and get through the difficult period at the beginning. [/b][/h1]
+The mod only modifies the AI ​​strategy values, does not add any overpowered values ​​to strengthen, and does not modify the national policy.
+
+This mod is in the development stage. If you find bugs and defects, or have good suggestions, please share your thoughts.Thank you!
+
+
+Current development progress:
+[list]
+[*]✅ Able to defeat Shanxi
+[*]✅ Able to defeat Xibei San Ma
+[/list]
+
+Have fun playing!
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+[h1]你是否疑惑过，为什么56之路里的中共连三马都打不过？这个mod的目标是[b]优化中共的ai策略，走更加合理的国策，更好地管理部队，度过开局的困难期。[/b][/h1]
+mod仅仅修改了ai策略方面的数值，不会添加任何硬性数值来加强，也没有修改国策，请放心食用。
+
+该mod正处于开发阶段，如果发现了bug和缺陷，或者有好的建议，麻烦各位反馈给我。
+
+当前开发进度：
+尚未完成： 当抗日统一战线建立时，使中共有概率不加入该阵营
+[list]
+    [*]✅ 能够打败晋系
+    [*]✅ 能够打败三马
+[/list]
+
+兼容性：理论上与绝大部分mod兼容，目前经过测试的有：
+[list]
+    [*] The road to 56 CN Supply | 56之路汉化补全
+    [*] 56之路++
+    [*] 56ai 强化
+    [*] The road to 56 疆域修改
+[/list]
+
+
+祝您游玩愉快！
